@@ -1,0 +1,110 @@
+* {
+    margin: 0 ;
+    padding: 0;
+}
+
+head {
+    background-color:rgb(70, 15, 235);
+}
+
+body{
+    background-color:rgb(224, 240, 193);
+}
+
+.conteiner {
+    width: 1200px;
+    margin: 0 auto;
+}
+a {
+    color: rgb(44, 18, 220);   
+}
+.nav-link {
+
+    color: rgb(72, 59, 139);
+}
+.title, .deskription, .subtitle{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.nav-link{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(38, 0, 255);
+    text-decoration: none;
+    padding: 15px;
+    background-color: rgb(172, 243, 6);
+    border-radius: 10px;
+    display: block;
+    border: 1px solid transparent;
+
+}
+.nav-link:hover {
+ border: 1px solid  darksalmon;
+ color: darksalmon;
+ background-color: rgb(253, 250, 248)
+
+}
+
+.item{
+
+    width: 200px ;
+    height: 200px;
+    
+}
+
+.item-pic  {
+    width: 100% ;
+    border-radius: 10px;
+}
+.content {
+
+    margin-top: 100px;
+
+}
+
+.subtitle, .nav-link, .title .deskription{
+
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+}
+
+.item-box {
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.item {
+    margin-bottom: 50px;
+}
+
+.item-link {
+    padding: 5px;
+    background-color: rgb(224, 197, 250);
+    display: block;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.one, .deskription{
+    color: rgb(6, 6, 241);
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-between;
+
+}
